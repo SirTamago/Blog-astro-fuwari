@@ -175,7 +175,13 @@ html.dark .OwO .OwO-body {
 }
 
 .OwO .OwO-body .OwO-bar {
-    border-top: none !important;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    background: #f0f0f0; /* 你可根据暗色模式或主题自定义 */
+    border-top: 1px solid #ccc;
 }
 
 .OwO .OwO-body .OwO-bar .OwO-packages li {

@@ -144,9 +144,14 @@ html.dark {
     animation: donate_effcet 0.3s ease 0.1s 1 normal both running;
 }
 
-.OwO .OwO-body {
+.OwO {
     z-index: 9999 !important;
     position: relative;
+}
+
+.OwO .OwO-body {
+    z-index: 9999 !important;
+    position: absolute;
     width: 500px;
     border: 1px solid rgba(144, 147, 153, 0.31) !important;
     border-radius: 8px !important;

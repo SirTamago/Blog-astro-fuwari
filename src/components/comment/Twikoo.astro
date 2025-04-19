@@ -14,6 +14,14 @@ const config = {
 
 <div id="tcomment"></div>
 <script is:inline src="https://registry.npmmirror.com/twikoo/1.6.42/files/dist/twikoo.all.min.js"></script>
-<script is:inline define:vars={{ config }}>
-  twikoo.init(config)
+
+<script define:vars={{ config }}>
+function loadTwikoo() {
+    twikoo.init(config);
+  }
+document.addEventListener("loadComment", loadTwikoo, { once: true });
+</script>
+
+<script is:inline>
+document.dispatchEvent(new Event("loadComment"));
 </script>

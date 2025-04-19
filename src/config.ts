@@ -1,10 +1,4 @@
-import type {
-	LicenseConfig,
-	NavBarConfig,
-	ProfileConfig,
-	SiteConfig,
-} from "./types/config";
-import { LinkPreset } from "./types/config";
+import {type LicenseConfig, LinkPreset, type NavBarConfig, type ProfileConfig, type SiteConfig, type CommentConfig} from "./types/config";
 
 export const siteConfig: SiteConfig = {
 	title: "Rimrose's Site",
@@ -17,11 +11,11 @@ export const siteConfig: SiteConfig = {
 	banner: {
 		enable: true,
 		src: "assets/images/monoEP1-1.png", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
-		position: "center", // Equivalent to object-position, only supports 'top', 'center', 'bottom'. 'center' by default
+		position: "bottom", // Equivalent to object-position, only supports 'top', 'center', 'bottom'. 'center' by default
 		credit: {
-			enable: false, // Display the credit text of the banner image
-			text: "", // Credit text to be displayed
-			url: "", // (Optional) URL link to the original artwork or artist's page
+			enable: true, // Display the credit text of the banner image
+			text: "头图来自《mono女孩》", // Credit text to be displayed
+			url: "https://mono-weekend.photo/", // (Optional) URL link to the original artwork or artist's page
 		},
 	},
 	toc: {
@@ -31,7 +25,7 @@ export const siteConfig: SiteConfig = {
 	favicon: [
 		// Leave this array empty to use the default favicon
 		// {
-		//   src: '/favicon/icon.png',    // Path of the favicon, relative to the /public directory
+		//   src: '/favicon/Rimrose202502.ico',    // Path of the favicon, relative to the /public directory
 		//   theme: 'light',              // (Optional) Either 'light' or 'dark', set only if you have different favicons for light and dark mode
 		//   sizes: '32x32',              // (Optional) Size of the favicon, set only if you have favicons of different sizes
 		// }
@@ -43,6 +37,7 @@ export const navBarConfig: NavBarConfig = {
 		LinkPreset.Home,
 		LinkPreset.Archive,
 		LinkPreset.About,
+		LinkPreset.Friends,
 		{
 			name: "GitHub",
 			url: "https://github.com/SirTamago", // Internal links should not include the base path, as it is automatically added
@@ -81,3 +76,9 @@ export const licenseConfig: LicenseConfig = {
 	name: "CC BY-NC-SA 4.0",
 	url: "https://creativecommons.org/licenses/by-nc-sa/4.0/",
 };
+
+export const commentConfig: CommentConfig = {
+	twikoo: {
+		envId: 'https://rimrose-twikko.netlify.app/.netlify/functions/twikoo',
+	},
+}

@@ -79,6 +79,6 @@ export const licenseConfig: LicenseConfig = {
 
 export const commentConfig: CommentConfig = {
 	twikoo: {
-		envId: 'https://rimrose-twikko.netlify.app/.netlify/functions/twikoo',
+		envId: 'https://twikoo.rimrose.work/.netlify/functions/twikoo',
 	},
 }

@@ -150,6 +150,7 @@ html.dark {
 }
 
 .OwO .OwO-body {
+    max-height: 200px !important;
     z-index: 9999 !important;
     position: absolute;
     width: 500px;
@@ -229,25 +230,3 @@ html.dark .OwO .OwO-body .OwO-bar .OwO-packages .OwO-package-active {
 html.dark .OwO-packages {
     background: #1e1e1e;
 }
-
-.OwO .OwO-body {
-    max-height: 400px; /* 你可以根据页面实际情况调整 */
-    overflow-y: auto;
-    scrollbar-width: thin;
-    scrollbar-color: #888 transparent; /* 可选，美化滚动条 */
-
-    /* 可选：兼容 WebKit */
-    &::-webkit-scrollbar {
-        width: 6px;
-    }
-
-    &::-webkit-scrollbar-thumb {
-        background-color: #888;
-        border-radius: 4px;
-    }
-
-    &::-webkit-scrollbar-track {
-        background: transparent;
-    }
-}
-

@@ -134,3 +134,92 @@ html.dark {
 .tk-collapse-wrap .tk-expand {
     @apply hover:rounded-lg mt-1 hover:bg-[var(--btn-plain-bg-hover)];
 }
+
+/* OwO */
+.OwO {
+    z-index: 99;
+}
+
+.OwO.OwO-open .OwO-body {
+    animation: donate_effcet 0.3s ease 0.1s 1 normal both running;
+}
+
+.OwO .OwO-body {
+    z-index: 102;
+    width: 500px;
+    border: 1px solid rgba(144, 147, 153, 0.31) !important;
+    border-radius: 8px !important;
+    overflow: hidden;
+    background-color: rgba(255, 255, 255, 0.8) !important;
+    backdrop-filter: saturate(180%) blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    transform: translateZ(0);
+}
+
+html.dark .OwO .OwO-body {
+    background-color: rgba(30, 30, 30, 0.8) !important;
+    border-color: rgba(255, 255, 255, 0.2) !important;
+}
+
+@media (max-width: 768px) {
+    .OwO .OwO-body {
+        width: 300px;
+    }
+}
+
+.OwO .OwO-body .OwO-bar {
+    border-top: none !important;
+}
+
+.OwO .OwO-body .OwO-bar .OwO-packages li {
+    margin-right: 0 !important;
+    height: 48px;
+    transition: 0.3s;
+    line-height: 45px !important;
+    background: transparent;
+    color: #333;
+}
+
+html.dark .OwO .OwO-body .OwO-bar .OwO-packages li {
+    color: #d1d5db;
+}
+
+.OwO .OwO-body .OwO-bar .OwO-packages li:hover {
+    transition: 0.3s;
+    background: rgba(0, 0, 0, 0.05);
+}
+
+html.dark .OwO .OwO-body .OwO-bar .OwO-packages li:hover {
+    background: rgba(255, 255, 255, 0.05);
+}
+
+.OwO .OwO-body .OwO-items .OwO-item:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.08) !important;
+    border-radius: 8px;
+}
+
+html.dark .OwO .OwO-body .OwO-items .OwO-item:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3) !important;
+}
+
+.OwO .OwO-body .OwO-bar .OwO-packages .OwO-package-active {
+    background: #f2f2f2 !important;
+}
+
+html.dark .OwO .OwO-body .OwO-bar .OwO-packages .OwO-package-active {
+    background: #2e2e2e !important;
+}
+
+.OwO .OwO-body .OwO-items-show {
+    margin: 12px 8px !important;
+    min-height: 197px;
+}
+
+.OwO-packages {
+    background: #fff;
+    padding-left: 8px !important;
+}
+
+html.dark .OwO-packages {
+    background: #1e1e1e;
+}

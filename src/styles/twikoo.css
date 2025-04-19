@@ -6,6 +6,10 @@ html.dark {
     --tk-text: #d1d5db;
 }
 
+.card-base {
+    overflow: visible;
+}
+
 .tk-comments {
     @apply text-[var(--tk-text)];
 }
@@ -136,27 +140,25 @@ html.dark {
 }
 
 /* OwO */
-.OwO {
-    z-index: 9999 !important;
-    position: relative;
-}
-
 .OwO.OwO-open .OwO-body {
     animation: donate_effcet 0.3s ease 0.1s 1 normal both running;
 }
 
 .OwO .OwO-body {
-    position: absolute;
-    top: 0;
+    z-index: 9999 !important;
     width: 500px;
-    max-height: 400px;
     border: 1px solid rgba(144, 147, 153, 0.31) !important;
     border-radius: 8px !important;
+    overflow: hidden;
     background-color: rgba(255, 255, 255, 0.8) !important;
     backdrop-filter: saturate(180%) blur(10px);
     -webkit-backdrop-filter: blur(10px);
     transform: translateZ(0);
-    overflow: hidden;
+}
+
+html.dark .OwO .OwO-body {
+    background-color: rgba(30, 30, 30, 0.8) !important;
+    border-color: rgba(255, 255, 255, 0.2) !important;
 }
 
 @media (max-width: 768px) {
@@ -165,38 +167,30 @@ html.dark {
     }
 }
 
-.OwO .OwO-body .OwO-items-show {
-    margin: 0;
-    padding: 12px 8px;
-    max-height: 350px;
-    overflow-y: auto;
-}
-
 .OwO .OwO-body .OwO-bar {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    z-index: 10;
-    background: #f0f0f0;
-    border-top: 1px solid #ccc;
+    border-top: none !important;
 }
 
 .OwO .OwO-body .OwO-bar .OwO-packages li {
     margin-right: 0 !important;
     height: 48px;
-    line-height: 45px !important;
     transition: 0.3s;
-    color: #333;
+    line-height: 45px !important;
     background: transparent;
+    color: #333;
+}
+
+html.dark .OwO .OwO-body .OwO-bar .OwO-packages li {
+    color: #d1d5db;
 }
 
 .OwO .OwO-body .OwO-bar .OwO-packages li:hover {
+    transition: 0.3s;
     background: rgba(0, 0, 0, 0.05);
 }
 
-.OwO .OwO-body .OwO-bar .OwO-packages .OwO-package-active {
-    background: #f2f2f2 !important;
+html.dark .OwO .OwO-body .OwO-bar .OwO-packages li:hover {
+    background: rgba(255, 255, 255, 0.05);
 }
 
 .OwO .OwO-body .OwO-items .OwO-item:hover {
@@ -204,30 +198,26 @@ html.dark {
     border-radius: 8px;
 }
 
-.OwO-packages {
-    background: #fff;
-    padding-left: 8px !important;
+html.dark .OwO .OwO-body .OwO-items .OwO-item:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3) !important;
 }
 
-html.dark .OwO .OwO-body {
-    background-color: rgba(30, 30, 30, 0.8) !important;
-    border-color: rgba(255, 255, 255, 0.2) !important;
-}
-
-html.dark .OwO .OwO-body .OwO-bar .OwO-packages li {
-    color: #d1d5db;
-}
-
-html.dark .OwO .OwO-body .OwO-bar .OwO-packages li:hover {
-    background: rgba(255, 255, 255, 0.05);
+.OwO .OwO-body .OwO-bar .OwO-packages .OwO-package-active {
+    background: #f2f2f2 !important;
 }
 
 html.dark .OwO .OwO-body .OwO-bar .OwO-packages .OwO-package-active {
     background: #2e2e2e !important;
 }
 
-html.dark .OwO .OwO-body .OwO-items .OwO-item:hover {
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3) !important;
+.OwO .OwO-body .OwO-items-show {
+    margin: 12px 8px !important;
+    min-height: 197px;
+}
+
+.OwO-packages {
+    background: #fff;
+    padding-left: 8px !important;
 }
 
 html.dark .OwO-packages {

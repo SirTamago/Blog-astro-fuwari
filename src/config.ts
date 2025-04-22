@@ -1,4 +1,11 @@
-import {type LicenseConfig, LinkPreset, type NavBarConfig, type ProfileConfig, type SiteConfig, type CommentConfig} from "./types/config";
+import {
+	type CommentConfig,
+	type LicenseConfig,
+	LinkPreset,
+	type NavBarConfig,
+	type ProfileConfig,
+	type SiteConfig
+} from "./types/config";
 
 export const siteConfig: SiteConfig = {
 	title: "Rimrose's Site",
@@ -37,11 +44,15 @@ export const navBarConfig: NavBarConfig = {
 		LinkPreset.Home,
 		LinkPreset.Archive,
 		LinkPreset.About,
-		LinkPreset.Friends,
 		{
 			name: "GitHub",
 			url: "https://github.com/SirTamago", // Internal links should not include the base path, as it is automatically added
 			external: true, // Show an external link icon and will open in a new tab
+		},
+		{
+			name: "Main Site",
+			url: "https://rimrose.top",
+			external: true,
 		},
 	],
 };

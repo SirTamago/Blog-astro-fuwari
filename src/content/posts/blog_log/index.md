@@ -2,7 +2,7 @@
 title: 博客迁移
 published: 2022-03-21
 description: "如题."
-image: ./cover.jpg
+image: ''
 tags: [Math]
 category: TEC
 draft: false

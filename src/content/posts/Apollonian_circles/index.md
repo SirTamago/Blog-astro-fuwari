@@ -2,7 +2,7 @@
 title: 一般情况下的阿波罗尼斯圆的方程的推导过程
 published: 2022-03-21
 description: "如题."
-image: ./cover.jpg
+image: ''
 tags: [Math]
 category: TEC
 draft: false

@@ -20,7 +20,7 @@ draft: false
 
 ## LoCyanFrp
 
-{% link '乐青映射 LoCyanFrp' '一个完全免费, 高自由度的内网穿透' 'https://www.locyanfrp.cn/' '上/下行不限速，还有基本算无限的流量，简直无敌好吧' 'https://www.locyanfrp.cn/favicon.ico' %}
+[LoCyanFrp官网](https://www.locyanfrp.cn/)
 
 我点开一看——握草，不限速，而且每天签到 1000~4000GB 流量？这个乐青映射是什么来头？再一看，他们的服务器都是捐赠来的，那我只好玩儿了命地免费用了，非常非常感谢这些服务器的捐赠者，你们简直就是神
 

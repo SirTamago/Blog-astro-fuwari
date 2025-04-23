@@ -8,6 +8,10 @@ category: TEC
 draft: false
 ---
 
+:::tip
+原文地址：https://rimrose.top/RSS_bangumi_download/
+:::
+
 ## 起因
 
 事情是这样的：由于四月新番有好几部我都比较感兴趣，但是我平常是在动漫花园一个一个找种子下载的，这样太麻烦了；于是我搜了一下发现 qBitTorrent 有 RSS 订阅功能，但是不知道为什么，在我的网络环境下使用代理时，总是无法正常下载，各种设置都调了之后还是处于一个基本不可用的状态，所以索性就让 ChatGPT 帮我写了个脚本来使用代理抓取种子再传入 qBittorrent 进行下载。

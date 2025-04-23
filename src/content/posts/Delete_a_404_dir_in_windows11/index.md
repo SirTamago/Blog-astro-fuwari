@@ -8,6 +8,10 @@ category: TEC
 draft: false
 ---
 
+:::tip
+原文地址：https://rimrose.top/Delete_a_404_dir_in_windows11/
+:::
+
 > 起因是昨天用 qBittorrent 下载新番，下载之后发现文件夹结构不对，一通删除之后出现了一个删除不掉的文件夹，尝试了删除，但是一直提示“找不到该项目”，然后今天下午突然鼓捣成功了，记录一下
 
 ## 场景复现：

@@ -8,6 +8,10 @@ category: TEC
 draft: false
 ---
 
+:::tip
+原文地址：https://rimrose.top/Problems_of_Multipass/
+:::
+
 ## 按时间顺序记录
 
 首先是Multipass的安装（在这之前我应该已经安装又卸载过十几次），参考的教程为：[轻量虚拟机 Multipass 的部署和使用](https://www.cnblogs.com/hewei-blogs/articles/17569105.html)

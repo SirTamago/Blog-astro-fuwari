@@ -8,6 +8,10 @@ category: TEC
 draft: false
 ---
 
+:::tip
+原文地址：https://rimrose.top/Tutorial_for_ZZU_Dorm_Electricity_Balance/
+:::
+
 本文主要是为了介绍如何部署 [Elykia](https://github.com/elykia-cn) 同学的 [ZZU-Dorm-Electricity-Balance](https://github.com/elykia-cn/ZZU-Dorm-Electricity-Balance) 项目，如果你只想单独设置低电量提醒，可以自己进行修改
 
 他在博客里发了一篇 [郑州大学宿舍电量监控：ZZU-Dorm-Electricity-Balance](https://blog.elykia.cn/posts/22.html)，但是看完这个博客并不能正确部署，所以我写了这篇博文来讲一下如何操作

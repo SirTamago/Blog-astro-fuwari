@@ -8,6 +8,10 @@ category: TEC
 draft: false
 ---
 
+:::tip
+原文地址：https://rimrose.top/%E5%BE%AE%E6%9C%BA%E5%8E%9F%E7%90%86%E4%B8%8A%E6%9C%BA%E5%AE%9E%E9%AA%8C%E7%9B%B8%E5%85%B3/
+:::
+
 本文内容基于微机原理老师发的 [2024年微机原理上机实验要求](https://xzqi2q6kpm.feishu.cn/docx/DPpBdb4EQolKIXxe79CcdYJ3n2g?from=from_copylink)
 
 **重要的资源：**

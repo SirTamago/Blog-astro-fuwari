@@ -8,6 +8,9 @@ category: REC
 draft: false
 ---
 
+:::tip
+原文地址：https://rimrose.top/2024-06-10_at_night/
+:::
 
 白天睡太多了半夜不想睡觉，写了点胡思乱想：
 

@@ -1,6 +1,5 @@
 ---
 import type { CollectionEntry } from 'astro:content'
-import { commentConfig } from '@/config'
 import Twikoo from './Twikoo.astro'
 interface Props {
   post: CollectionEntry<'posts'>
@@ -11,10 +10,7 @@ const { id, data, slug } = Astro.props.post
 const path = `/posts/${slug}`
 const url = `${Astro.site?.href}${path}`
 
-let commentService = ''
-if (commentConfig?.twikoo) {
-  commentService = 'twikoo'
-}
+let commentService = 'twikoo'
 ---
 <div class="card-base p-6 mb-4">
   {commentService === 'twikoo' && <Twikoo path={path} />}

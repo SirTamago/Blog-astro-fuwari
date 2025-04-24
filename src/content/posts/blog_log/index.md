@@ -1,7 +1,7 @@
 ---
 title: 博客迁移
 published: 2022-03-21
-description: "如题."
+description: "尝试从 Hexo 迁移到了 Astro"
 image: ''
 tags: [Math]
 category: TEC

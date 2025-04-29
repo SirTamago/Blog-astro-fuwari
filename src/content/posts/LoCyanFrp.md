@@ -8,6 +8,10 @@ category: TEC
 draft: false
 ---
 
+:::tip
+原文地址：https://rimrose.top/NAT_Traversal_LoCyanFrp/
+:::
+
 ## 前情提要
 
 由于上一篇文章里我已经搭建好了一个适合我网络环境的番剧自动下载流程，所以下一步自然是要考虑如何快速便捷地访问我下载的内容。
@@ -29,8 +33,6 @@ draft: false
 ![看到服务器介绍里的“捐赠”二字，肃然起敬](https://img.rimrose.work/20250422190708018.png)
 
 使用方法很简单，点进上边的官网去注册一个账号，然后通过两级实名认证就能用了（实测我只通过二级认证会无法使用）
-
-![点击就送1~4T流量](https://img.rimrose.work/20250422191334464.png)
 
 ![基本相当于不限速不限流量](https://img.rimrose.work/20250422191433013.png)
 

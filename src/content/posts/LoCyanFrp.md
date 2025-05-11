@@ -71,3 +71,11 @@ chmod +x ./frpc
 ```
 
 然后和linux一样用简易启动命令就行了
+
+## 关于https
+
+在使用 LoCyanFrp 穿透 Alist 的时候，如果想开启 https，需要在 LoCyanFrp 的隧道设置里把需要开启 https 的隧道改成使用 https 协议穿透，并且需要在 Alist 的 `config.json` 里进行设置，具体可以参考 [Alist文档：配置文件](https://alistgo.com/zh/config/configuration.html#scheme)，然后把设置好的 https 端口在隧道配置里也写好
+
+但是有一个问题，Alist 开启 https 之后，文件加载速度会变得特别慢，尤其是视频
+
+并且还有一点，手机上直接（通过apk文件）装的 Alist 是无法正确开启 https 的，即使你把配置文件写好也是没用的
